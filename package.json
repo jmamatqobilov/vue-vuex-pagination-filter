@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "db:serve": "json-server --watch db.json --port=8000",
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve", 
     "build": "vue-cli-service build"
   },
   "dependencies": {

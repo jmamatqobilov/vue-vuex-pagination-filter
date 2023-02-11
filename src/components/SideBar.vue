@@ -30,12 +30,15 @@ export default {
 
     data(){
         return{
-            brands:["Artel","Roison","LG","Avalon" ]
+            
         }
+    },
+    props:{
+        brands:[]
     },
 
     methods:{
-        filterBrandClicked(brand){
+        filterBrandClicked(){
             this.$emit('filterBrand',brand)
         }
     }
@@ -44,26 +47,26 @@ export default {
 
 
 <style lang="scss">
-.sidebar {
-    background-color: rgb(252, 252, 252);
-    width: 280px;
-    height: 580px;
-    .filter-brands{
-        flex-direction: column;
-        align-items: center;
-        text-align: start;
-        .fliter-brand-circle{
-            display: flex;
-            align-items: center;
-            background-color: red;
-            padding: 10px;
-            .filter-circle-box{
-                margin-right: 16px;
-                width: 10px;
-                height: 10px;
-                border: solid 2px rebeccapurple;
-            }
-        }
-    }
-}
+// .sidebar {
+//     background-color: rgb(252, 252, 252);
+//     width: 280px;
+//     height: 580px;
+//     .filter-brands{
+//         flex-direction: column;
+//         align-items: center;
+//         text-align: start;
+//         .fliter-brand-circle{
+//             display: flex;
+//             align-items: center;
+//             background-color: red;
+//             padding: 10px;
+//             .filter-circle-box{
+//                 margin-right: 16px;
+//                 width: 10px;
+//                 height: 10px;
+//                 border: solid 2px rebeccapurple;
+//             }
+//         }
+//     }
+// }
 </style>

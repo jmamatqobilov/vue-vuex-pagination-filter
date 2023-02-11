@@ -2,364 +2,454 @@
   "products": [
     {
       "id": 1,
-      "artnumber": "12",
-      "name": "a",
+      "artnumber": "1",
+      "name": "muzlatkich",
       "brand":"Artel",
-      "quantity":0,
-      "price":"12121"
+      "image":"1.png",
+      "quantity":1,
+      "price":"121",
+      "stock":"1"
     },
     {
       "id": 2,
-      "artnumber": "12",
-      "name": "b",
+      "artnumber": "2",
+      "name": "muzlatkich",
       "brand":"Roison",
-      "quantity":0,
-      "price":"12121"
+      "image":"2.png",
+      "quantity":1,
+      "price":"140",
+      "stock":"1"
     },
     {
       "id": 3,
-      "artnumber": "12",
-      "name": "c",
+      "artnumber": "3",
+      "name": "muzlatkich",
+      "image":"3.png",
       "brand":"LG",
-      "quantity":0,
-      "price":"12121"
+      "quantity":2,
+      "price":"121",
+      "stock":"1"
     },
     {
       "id": 4,
       "artnumber": "12",
-      "name": "c",
+      "name": "muzlatkich",
       "brand":"Avalon",
-      "quantity":0,
-      "price":"12121"
+      "image":"4.png",
+      "quantity":1,
+      "price":"131",
+      "stock":"1"
     },
     {
       "id": 5,
       "artnumber": "12",
-      "name": "e",
+      "name": "muzlatkich",
       "brand":"Artel",
-      "quantity":0,
-      "price":"12121"
+      "image":"2.png",
+      "quantity":1,
+      "price":"110",
+      "stock":"1"
     },
     
     {
       "id": 6,
       "artnumber": "12",
-      "name": "g",
+      "name": "muzlatkich",
       "brand":"Roison",
-      "quantity":0,
-      "price":"12121"
+      "image":"3.png",
+      "quantity":2,
+      "price":"120",
+      "stock":"1"
     },
     {
       "id": 7,
       "artnumber": "12",
-      "name": "h",
+      "name": "muzlatkich",
       "brand":"Avalon",
-      "quantity":0,
-      "price":"12121"
+      "image":"2.png",
+      "quantity":1,
+      "price":"125",
+      "stock":"1"
     },
     {
       "id": 8,
       "artnumber": "12",
-      "name": "i",
+      "name": "muzlatkich",
       "brand":"LG",
-      "quantity":0,
-      "price":"12121"
+      "image":"1.png",
+      "quantity":1,
+      "price":"132",
+      "stock":"1"
     },
     {
       "id": 9,
       "artnumber": "12",
-      "name": "j",
+      "name": "muzlatkich",
       "brand":"Roison",
-      "quantity":0,
-      "price":"12121"
+      "image":"4.png",
+      "quantity":2,
+      "price":"190",
+      "stock":"1"
     },
     {
       "id": 10,
       "artnumber": "12",
-      "name": "k",
+      "name": "muzlatkich",
       "brand":"Artel",
-      "quantity":0,
-      "price":"12121"
+      "image":"2.png",
+      "quantity":1,
+      "price":"124",
+      "stock":"1"
     },
     {
       "id": 11,
       "artnumber": "12",
-      "name": "l",
+      "name": "muzlatkich",
       "brand":"LG",
-      "quantity":0,
-      "price":"12121"
+      "image":"4.png",
+      "quantity":1,
+      "price":"210",
+      "stock":"1"
     },
     {
       "id": 12,
       "artnumber": "12",
-      "name": "m",
+      "name": "muzlatkich",
       "brand":"Avalon",
-      "quantity":0,
-      "price":"12121"
+      "image":"1.png",
+      "quantity":3,
+      "price":"149",
+      "stock":"1"
     },
     {
       "id": 13,
       "artnumber": "12",
-      "name": "n",
+      "name": "muzlatkich",
       "brand":"Roison",
-      "quantity":0,
-      "price":"12121"
+      "image":"2.png",
+      "quantity":1,
+      "price":"131",
+      "stock":"1"
     },
     {
       "id": 14,
       "artnumber": "12",
-      "name": "o",
+      "name": "muzlatkich",
       "brand":"LG",
-      "quantity":0,
-      "price":"12121"
+      "image":"4.png",
+      "quantity":1,
+      "price":"190",
+      "stock":"1"
     },
     {
       "id": 15,
       "artnumber": "12",
-      "name": "p",
+      "name": "muzlatkich",
       "brand":"Artel",
-      "quantity":0,
-      "price":"12121"
+      "image":"2.png",
+      "quantity":1,
+      "price":"138",
+      "stock":"1"
     },
     {
       "id": 16,
       "artnumber": "12",
-      "name": "q",
+      "name": "muzlatkich",
       "brand":"Roison",
-      "quantity":0,
-      "price":"12121"
+      "image":"1.png",
+      "quantity":1,
+      "price":"121",
+      "stock":"1"
     },
     {
       "id": 17,
       "artnumber": "12",
-      "name": "hl",
+      "name": "muzlatkich",
       "brand":"Avalon",
-      "quantity":0,
-      "price":"12121"
+      "image":"3.png",
+      "quantity":2,
+      "price":"142",
+      "stock":"1"
     },
     {
       "id": 18,
       "artnumber": "12",
-      "name": "m",
+      "name": "muzlatkich",
       "brand":"LG",
-      "quantity":0,
-      "price":"12121"
+      "image":"1.png",
+      "quantity":2,
+      "price":"120",
+      "stock":"1"
     },
     {
       "id": 19,
       "artnumber": "12",
-      "name": "n",
+      "name": "muzlatkich",
       "brand":"Artel",
-      "quantity":0,
-      "price":"12121"
+      "image":"2.png",
+      "quantity":1,
+      "price":"170",
+      "stock":"1"
     },
     {
       "id": 20,
       "artnumber": "12",
-      "name": "z",
+      "name": "muzlatkich",
       "brand":"Roison",
-      "quantity":0,
-      "price":"12121"
+      "image":"3.png",
+      "quantity":1,
+      "price":"128",
+      "stock":"1"
     },
     {
       "id": 21,
       "artnumber": "12",
-      "name": "s",
+      "name": "muzlatkich",
       "brand":"LG",
-      "quantity":0,
-      "price":"12121"
+      "image":"1.png",
+      "quantity":2,
+      "price":"220",
+      "stock":"1"
     },
     {
       "id": 22,
       "artnumber": "12",
-      "name": "t",
+      "name": "muzlatkich",
       "brand":"Avalon",
-      "quantity":0,
-      "price":"12121"
+      "image":"4.png",
+      "quantity":1,
+      "price":"130",
+      "stock":"1"
     },
     {
       "id": 23,
       "artnumber": "12",
-      "name": "y",
+      "name": "muzlatkich",
       "brand":"Artel",
-      "quantity":0,
-      "price":"12121"
+      "image":"3.png",
+      "quantity":1,
+      "price":"180",
+      "stock":"1"
     },
     {
       "id": 24,
       "artnumber": "12",
-      "name": "v",
+      "name": "muzlatkich",
       "brand":"LG",
-      "quantity":0,
-      "price":"12121"
+      "image":"2.png",
+      "quantity":1,
+      "price":"172",
+      "stock":"1"
     },
     {
       "id": 25,
       "artnumber": "12",
-      "name": "w",
+      "name": "muzlatkich",
       "brand":"Roison",
-      "quantity":0,
-      "price":"12121"
+      "image":"1.png",
+      "quantity":1,
+      "price":"120",
+      "stock":"1"
     },
     {
       "id": 26,
       "artnumber": "12",
-      "name": "x",
+      "name": "muzlatkich",
       "brand":"Avalon",
-      "quantity":0,
-      "price":"12121"
+      "image":"1.png",
+      "quantity":1,
+      "price":"130",
+      "stock":"1"
     },
     {
       "id": 27,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"Artel",
-      "quantity":0,
-      "price":"12121"
+      "image":"2.png",
+      "quantity":1,
+      "price":"110",
+      "stock":"1"
     },
     {
       "id": 28,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"LG",
-      "quantity":0,
-      "price":"12121"
+      "image":"4.png",
+      "quantity":1,
+      "price":"132",
+      "stock":"1"
     },
     {
       "id": 29,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"Roison",
-      "quantity":0,
-      "price":"12121"
+      "image":"3.png",
+      "quantity":1,
+      "price":"120",
+      "stock":"1"
     },
     {
       "id": 30,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"Artel",
-      "quantity":0,
-      "price":"12121"
+      "image":"4.png",
+      "quantity":2,
+      "price":"121",
+      "stock":"1"
     },
     {
       "id": 31,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"LG",
-      "quantity":0,
-      "price":"12121"
+      "image":"3.png",
+      "quantity":1,
+      "price":"122",
+      "stock":"1"
     },
     {
       "id": 32,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"Avalon",
+      "image":"2.png",
       "quantity":0,
-      "price":"12121"
+      "price":"110",
+      "stock":"1"
     },
     {
       "id": 33,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"Artel",
-      "quantity":0,
-      "price":"12121"
+      "image":"1.png",
+      "quantity":1,
+      "price":"132",
+      "stock":"1"
     },
     {
       "id": 34,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"LG",
-      "quantity":0,
-      "price":"12121"
+      "image":"3.png",
+      "quantity":1,
+      "price":"145",
+      "stock":"1"
     },
     {
       "id": 35,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"Roison",
-      "quantity":0,
-      "price":"12121"
+      "image":"4.png",
+      "quantity":1,
+      "price":"135",
+      "stock":"1"
     },
     {
       "id": 36,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"Avalon",
-      "quantity":0,
-      "price":"12121"
+      "image":"1.png",
+      "quantity":1,
+      "price":"145",
+      "stock":"1"
     },
     {
       "id": 37,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"Artel",
-      "quantity":0,
-      "price":"12121"
+      "image":"3.png",
+      "quantity":1,
+      "price":"150",
+      "stock":"1"
     },
     {
       "id": 38,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"LG",
-      "quantity":0,
-      "price":"12121"
+      "image":"1.png",
+      "quantity":1,
+      "price":"12121",
+      "stock":"1"
     },
     {
       "id": 39,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"Artel",
-      "quantity":0,
-      "price":"12121"
+      "image":"4.png",
+      "quantity":1,
+      "price":"121",
+      "stock":"1"
     },
     {
       "id": 40,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"Roion",
+      "image":"1.png",
       "quantity":0,
-      "price":"12121"
+      "price":"140",
+      "stock":"1"
     },
     {
       "id": 41,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"Avalon",
-      "quantity":0,
-      "price":"12121"
+      "image":"3.png",
+      "quantity":1,
+      "price":"120",
+      "stock":"1"
     },
     {
       "id": 42,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"Artel",
+      "image":"1.png",
       "quantity":0,
-      "price":"12121"
+      "price":"12121",
+      "stock":"1"
     },
     {
       "id": 43,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"Roion",
-      "quantity":0,
-      "price":"12121"
+      "image":"4.png",
+      "quantity":1,
+      "price":"120",
+      "stock":"1"
     },
     {
       "id": 44,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"Artel",
-      "quantity":0,
-      "price":"12121"
+      "image":"1.png",
+      "quantity":2,
+      "price":"125",
+      "stock":"1"
     },
     {
       "id": 45,
       "artnumber": "12",
-      "name": "f",
+      "name": "muzlatkich",
       "brand":"Avalon",
-      "quantity":0,
-      "price":"12121"
+      "image":"3.png",
+      "quantity":1,
+      "price":"130",
+      "stock":"1"
     }
   ]
   

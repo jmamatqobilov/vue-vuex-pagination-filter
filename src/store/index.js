@@ -1,21 +1,23 @@
 import axios from 'axios'
 import { createStore } from 'vuex'
 
+import {actions,mutations} from '../utils/names'
+
 export default createStore({
   state: {
     products:[],
     
     products_count:[],
-    
+   
     
   },
   
   mutations: {
-    SET_PRODUCT_TO_VUEX:(state,products)=>{
+    [mutations.SET_PRODUCTS_ALL]:(state,products)=>{
       state.products = products
     },
 
-    SET_PRODUCT_ALL_VUEX:(state,products_count)=>{
+    [mutations.SET_PRODUCTS_LENGTH]:(state,products_count)=>{
       state.products_count = products_count
     },
 
@@ -24,18 +26,17 @@ export default createStore({
 
   },
   actions: {
-    async getProductsFromApi({commit},page){
-      // console.log(params)
-      // const {page,brand} = JSON.parse(params)
-
-      return axios.get('http://localhost:8000/products?_limit=4',{
+    [actions.GET_PRODUCTS_ALL]({commit},params){
+      const {page,brand} = params
+      return axios.get(`http://localhost:8000/products?_limit=4`,{
         params:{  
-          _page:page
+          _page:page,
+          brand:brand
         }
       })
       .then((response)=>{
        
-        commit('SET_PRODUCT_TO_VUEX',response.data);
+        commit(mutations.SET_PRODUCTS_ALL,response.data);
         
         console.log(response.data)
         
@@ -44,18 +45,18 @@ export default createStore({
     
    
 
-    getProductsAllApi({commit}){
-      // const {brand} = JSON.parse(params)
-      console.log ();
+   [actions.GET_PRODUCTS_LENGTH]({commit},params){
+      const {brand} = params
+     
       return axios.get('http://localhost:8000/products',{
-        // params:{
-        //   brand:brand
-        // }
+        params:{
+          brand:brand
+        }
       })
       .then((respon)=>{
-        commit('SET_PRODUCT_ALL_VUEX',respon.data);
+        commit(mutations.SET_PRODUCTS_LENGTH,respon.data);
         
-        // console.log(respon.data)
+        console.log(respon.data)
       })
     },
 
